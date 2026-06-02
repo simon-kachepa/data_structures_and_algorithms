@@ -1,12 +1,5 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-
-        if (nums1.length == 1 && nums2.length == 0){
-            return nums1[0];
-        }
-        if (nums1.length == 0 && nums2.length == 1){
-            return nums2[0];
-        }
         List<Integer> myList = new ArrayList<>();
         double median;
 
